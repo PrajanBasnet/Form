@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'odinFont';
+    src: url("public/Norse-Bold.otf");
+}
+
+.sideCover {
+    position: relative;
+    height: 100vh;
+    display: inline;
+
+}
+
+.main {
+    height: 100vh;
+}
+
+.back-img {
+    height: 100vh;
+    position: absolute;
+}
+
+.midcover {
+    position: relative;
+    font-family: 'odinFont';
+    color: white;
+    font-size: 90px;
+    height: 20vh;
+    top: 200px;
+    width: 615px;
+    background: hsla(0, 0%, 0%, 0.5);
+}
+
+.logoDiv {
+    position: relative;
+    width: 20vh;
+    align-content: center;
+    left: 180px;
+
+}
+
+#coverFont {
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+
+
+.front-img {
+    position: absolute;
+    width: 120px;
+
+}
+
+/* Form css code */
+
+.registerForm {
+    position: relative;
+    left: 39%;
+}
