@@ -88,6 +88,8 @@ body {
     gap: 30px;
 }
 
+
+
 .mainform {
     position: relative;
     bottom: 100px;
@@ -109,8 +111,14 @@ input {
     height: 20px;
 }
 
+
 input:invalid {
     border: 1px solid red;
+    transform: 0.8s;
+}
+
+input:focus {
+    border: 1px solid #E5E7EB;
 }
 
 .btn {
